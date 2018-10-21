@@ -1,0 +1,21 @@
+{
+  "name": "overlord/php-speed-test",
+  "description": "Compare used resources by 2 PHP scripts",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jozef Curyllo",
+      "email": "biuro@overlord.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PHPSpeedTest\\": "src/"
+    }
+  },
+  "require": {
+    "phpunit/php-timer": "2.0.0",
+    "vlucas/phpdotenv": "2.4.x-dev"
+  }
+}
